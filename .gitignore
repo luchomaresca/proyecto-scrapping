@@ -1,0 +1,16 @@
+# Entornos virtuales (el más importante para no llenar el repo de basura)
+venv/
+env/
+.env
+
+# Archivos compilados de Python
+**/__pycache__/
+*.py[cod]
+
+# Datos y reportes (puedes ignorarlos si no quieres subir tus excels de prueba)
+data/*.csv
+data/*.xlsx
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
